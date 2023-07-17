@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mike Overton Films</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+<script>
+    $(function() {
+        confirm();
+        var $video1 = $(".video1");
+    
+        $video1.on("mouseenter focus", function () {
+            $video1.get(0).play();
+        });
+    });
+</script>
+
+
+    <div class="nav" id="nav">
+        <!-- <div class="nav__spacer"></div> -->
+        <h3 class="nav__title">MIKE OVERTON</h3>
+            <!-- <img src="images/netflix-avatar.png" alt="" class="nav__avatar"> -->
+            <div class="nav__page">Films</div>
+            <div class="nav__page">Graphics</div>
+            <div class="nav__page">Animation</div>
+            <div class="nav__buttons">
+                <button class="nav__button">CONTACT</button>
+                <!-- <button class="nav__button">RESUMÉ</button> -->
+            </div>
+    </div>
+
+    <!-- Banner Backup -->
+
+    <!-- <div class="banner">
+
+        <div class="banner__contents">
+            <img src="images/Movie Title Cards/Chicken Little Title.png" alt="" class="banner__logo">
+            <div class="banner__buttons">
+                <button class="banner__button">Watch Now</button>
+            </div>
+            <div class="banner__description">
+                Spencer Sutherland and Meghan Trainor perform their latest single, "Chicken Little."
+            </div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </div> -->
+        
+    <!-- end of banner backup -->
+    
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="banner1">
+                    <div class="banner__contents1">
+                        <!-- <h1 class="banner__title">Chicken Little</h1> -->
+                        <div><img src="images/Movie Title Cards/Chicken Little Title.png" alt="" class="banner__logo" style="width:450px">
+                            <div class="banner__buttons">
+                                <button class="genre__button"style="margin-left: 0%;"><span style="margin-right: 0px">Music Video</span></button>
+                                 <button class="runtime__button"style="margin-left: 0%;"><span style="margin-right: 0px">Runtime: 3 minutes </span></button>
+                            </div>
+                            <div class="banner__description">
+                                <span>Spencer Sutherland and Meghan Trainor perform their latest single.</span>
+                            </div>
+                            <div class="banner__buttons">
+                                <a href="chicken-little.html"><button class="banner__button__dark" style="margin-top:10px; margin-left: 0px;">Watch Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner--fadeBottom"></div>
+                </div>
+            </div>
+
+             <!-- Night Off Highway 9 Banner -->
+             <div class="mySlides fade">
+                <div class="banner4 ">
+                    <div class="banner__contents4">
+                        <div><img src="images/Movie Title Cards/highway9.png" alt="" class="banner__logo" style="width:300px;margin-top:0px;margin-left: 0px;">
+                            <div class="banner__buttons">
+                                <button class="genre__button"style="margin-left: 0%;"><span style="margin-right: 8px;">Sci-Fi</span>•<span style="margin-right: 8px;margin-left: 8px;">Horror</span>•<span style="margin-left: 8px;">Teaser Concept</span></button>
+                                <button class="runtime__button"style="margin-left: 0%;"><span style="margin-right: 0px">Runtime: 2 minutes </span></button>
+                            </div>
+                            <div class="banner__description" style="margin-left: 0px;">
+                                <span>Ten percent of the human population is left to fend for itself after earth becomes a feeding ground for bug-like visisters.</span>
+                            </div>
+                            <div class="banner__buttons">
+                                <a href="Highway9.html"><button class="banner__button__dark" style="margin-top:10px; margin-left:0px;">Watch Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner--fadeBottom" style="margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <!-- Quarantine Banner -->
+            <div class="mySlides fade">
+                <div class="banner2">
+                    <div class="banner__contents2">
+                        <div><img src="images/Movie Title Cards/Quarantine.png" alt="" class="banner__logo" style="width: 400px;margin-left:20px;margin-top: -50px;">
+                            <div class="banner__buttons">
+                                 <button class="genre__button"style="background-color: rgba(255,255,255,0);margin-left: 30px;"><span style="margin-right: 8px;">Comedy</span>•<span style="margin-left: 8px;">Musical</span></button>
+                                <button class="runtime__button"style="margin-left: 0%;"><span style="margin-right: 0px">Runtime: 9 minutes </span></button>
+                            </div>
+                            <div class="banner__description"style="margin-left:30px">
+                                <span>A group of roommates, stuck in COVID-19 quarantine, resort to desperate measures after spending their entire stimulus checks too fast.</span>
+                            </div>
+                            <div class="banner__buttons">
+                                <a href="quarantine.html"><button class="banner__button__dark" style="margin-top:10px; margin-left: 30px;">Watch Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner--fadeBottom"></div>
+                </div>
+            </div>
+            
+            <!-- Certain Kind of Man Banner -->
+            <div class="mySlides fade">
+                <div class="banner3 ">
+                    <div class="banner__contents3" style="margin-left: 30px;">
+                        <div><h1 class="banner__title" style=" justify-content: right;margin-right:30px;margin-bottom: 0px; font-size:40px; font-family:Perpetua;color: rgb(255, 62, 62);line-height: .7;text-shadow: 0px 0px 2px black;">A CERTAIN KIND OF MAN</h1>
+                            <div class="banner__buttons">
+                                <button class="genre__button"style="margin-left: 0%;"><span style="margin-right: 8px;">Suspense</span>•<span style="margin-right: 8px;margin-left: 8px;">Thriller</span>•<span style="margin-left: 8px;">Drama</span></button>
+                                <button class="runtime__button"style="margin-left: 0%;"><span style="margin-right: 0px">Runtime: 22 minutes </span></button>
+                            </div>
+                            <div class="banner__description">
+                                <span style="font-weight:bold;margin-right: 0px;">ARIZONA, 1994</span> - Following a fateful encounter, a seasoned con man begins to feel the pressure of his criminal past catching up with him.
+                            </div>
+                            <div class="banner__buttons">
+                                <a href="certain-kind-of-man.html"><button class="banner__button__dark" style="margin-top:10px; margin-left: 0px;">Watch Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner--fadeBottom"></div>
+                </div>
+            </div>
+
+            
+            </div>
+            <br>
+            
+
+            <!-- styling for slideshow -->
+
+            <!-- hide the dots -- controls number of slides by the way! -->
+            <div style="text-align:center; margin-bottom: 10px;">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+
+            <style>
+                * {box-sizing: border-box;}
+                body {font-family: Verdana, sans-serif;}
+                .mySlides {display: none;}
+                img {vertical-align: middle;}
+                
+                /* Slideshow container */
+                .slideshow-container {
+                    background-size: cover;
+                    background-position: center center;
+                    background-position-y: 30%;
+                    color: white;
+                    object-fit: contain;
+                    height: 360px;
+                    z-index: 0;
+                    animation: xfade 0s -10s infinite;
+                     animation-timing-function: ease-in-out;
+                }
+
+                @keyframes xfade{
+
+                        0% {opacity: 0;}
+                        20% {opacity: 1;}
+                        33% {opacity: 1;}
+                        53% {opacity: 0;}
+                        100% {opacity: 0;}
+                        }
+                
+                /* Caption text */
+                .text {
+                  color: #f2f2f2;
+                  font-size: 15px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  bottom: 8px;
+                  width: 100%;
+                  text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                  color: #f2f2f2;
+                  font-size: 12px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                  height: 0px;
+                  width: 0px;
+                  margin: 320 2px;
+                  background-color: #bbb;
+                  border-radius: 10%;
+                  display: inline-block;
+                  transition: background-color 0.1s ease;
+                  margin-top:0px;
+                }
+                
+                .active {
+                  background-color: none;
+                }
+                
+                /* Fading animation */
+                .fade {
+                  animation-name: fade;
+                  animation-duration: 0s;
+                }
+                
+                
+                @keyframes fade {
+                  from {opacity: 1} 
+                  to {opacity: 1}
+                }
+                
+                /* On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                  .text {font-size: 11px}
+                }
+                </style>
+
+
+<!-- disable button  -->
+
+
+
+    <!-- slideshow -->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 10000); // Change image every 20 seconds
+        }
+        </script>
+
+
+    <!-- ORIGINAL SHORT FILMS -->
+
+    <div class="row" style="margin-top:-50px;">
+        <h2 style="margin-left:0px;margin-bottom: -12px;">Original Short Films</h2>
+        <div class="video__row__posters">
+            <div class="videoPreview__box"><a href="chicken-little.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Chicken_Little_Poster_Loop_MUSIC.mp4" poster="images/Movie Posters/Poster+Image+Chicken+little.png"></video></a></div>
+            <div class="videoPreview__box"><a href="Highway9.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Highway9_Music.mp4" poster="images/Movie Posters/highway 9 poster.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="quarantine.html"><video class="videoPreview" height="250" src="images/Thumnail Previews/Quarantine Hover Video_MUSIC.mp4" poster="images/Movie Posters/Quarantine+500x758.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="certain-kind-of-man.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/CKOM_MUSIC.mp4" poster="images/Movie Posters/CKOM fixed.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="Heavy Metal.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Heavy Metal Hover Video_MUSIC.mp4" poster="images/Movie Posters/Heavy+Metal+website+poster LAURALS.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="Sylus.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Sylus+Hover_MUSIC.mp4" poster="images/Movie Posters/SYLUS500x758.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="Savior.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Savior500x758_Music_Alt.mp4" poster="images/Movie Posters/Savior_Fixed.jpg"></video></a></div>
+            <div class="videoPreview__box"><a href="natural-selection.html"><video class="videoPreview"  height="250" src="images/Thumnail Previews/Natural Selection 320x485 MUSIC.mp4" poster="images/Movie Posters/Natural+Selection+500x758+awards.jpg"></video></a></div>
+            
+        </div>
+    </div>
+
+<!--     
+    <div class="row" style="margin-top:-50px">
+        <h2>Original Short Films</h2>
+        <div class="row__posters">
+            <img src="images/Movie Posters/Poster+Image+Chicken+little.png" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/Natural+Selection+500x758+awards.jpg" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/Quarantine+500x758.jpg" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/CKOM+downres.jpg" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/heavymetal+new+500x758.jpg" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/SYLUS500x758.jpg" class="row__poster row__posterLarge"/>
+            <img src="images/Movie Posters/Savior+Downres.jpg" class="row__poster row__posterLarge"/>
+        </div>
+    </div> -->
+
+      <!-- Other Films -->
+      <div class="row" style="margin-top:20px">
+        <h2 style="margin-left:0px">Older Films</h2>
+        <div class="old__video__row__posters">
+            <div class="oldvideoPreview__box"><a href="chicken-little.html"><video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/AfterMidnight.mp4" poster="images/Other Films/Aftermidnight1.jpg"></video></a></div>
+            <div class="oldvideoPreview__box"><a href="chicken-little.html"><video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/BestThingForYou.mp4" poster="images/Other Films/bestthingforyou.jpg"></video></a></div>
+            <div class="oldvideoPreview__box"><a href="chicken-little.html"><video class="oldvideoPreview" height="100" src="images/Other Films/Other Film Thumbnail Videos/Highway9SMALL.mp4" poster="images/Other Films/highway9.jpg"></video></a></div>
+            <div class="oldvideoPreview__box"><a href="chicken-little.html"><video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/GrabberGreen.mp4" poster="images/Other Films/GrabberGreen.jpg"></video></a></div>
+            <div class="oldvideoPreview__box"><a href="chicken-little.html"><video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/Eyes_movie.mp4" poster="images/Other Films/eyes.jpg"></video></a></div>
+        </div>
+    </div>
+
+      <!-- Other Films -->
+      <div class="row" style="margin-top:20px">
+        <h2 style="margin-left:0px">Older Films</h2>
+        <div class="old__video__row__posters">
+            <video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/AfterMidnight.mp4" poster="images/Other Films/Aftermidnight1.jpg"></video>
+            <video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/BestThingForYou.mp4" poster="images/Other Films/bestthingforyou.jpg"></video>
+            <video class="oldvideoPreview" height="100" src="images/Other Films/Other Film Thumbnail Videos/Highway9SMALL.mp4" poster="images/Other Films/highway9.jpg"></video>
+            <video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/GrabberGreen.mp4" poster="images/Other Films/GrabberGreen.jpg"></video>
+            <video class="oldvideoPreview"  height="100" src="images/Other Films/Other Film Thumbnail Videos/Eyes_movie.mp4" poster="images/Other Films/eyes.jpg"></video>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- script for video previews -->
+<script>
+    document.querySelectorAll('.oldvideoPreview, .videoPreview').forEach(function(vid) {
+  vid.onmouseover = function() {
+    this.play();
+  }
+  vid.onmouseout = function() {
+    this.load(); // stop and show poster
+  }
+})
+</script>
+
+
+<!-- script for nav bar fading in and out on scroll -->
+<script>
+    const nav = document.getElementById('nav');
+
+    window.addEventListener('scroll', () => {
+        if(window.scrollY >=100) {
+            nav.classList.add('nav__black')
+        } else {
+            nav.classList.remove('nav__black')
+        }
+    })
+</script>
+
+</body>
+
+</html>
